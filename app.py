@@ -40,6 +40,10 @@ def get_news():
         'in': search_in,
         'token': API_KEY,
     }
+    if search_keyword is None:
+        search_keyword=''
+    if search_in is None:
+        search_in=''
     cache_key = search_keyword + search_in
     cached_response = cache.get(cache_key)
     
