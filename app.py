@@ -8,7 +8,7 @@ cache = RedisCache()
 
 GNEWS_API_URL = "https://gnews.io/api/v4/search"
 GNEWS_TOP_HEADLINES_URL = "https://gnews.io/api/v4/top-headlines"
-API_KEY = 'ca34c717caaa6e1c1401ef9582dbaced' # Replace with your GNews API key
+API_KEY = 'ca34c717caaa6e1c140......' # Replace with your GNews API key
 
 @app.route('/news', methods=['GET'])
 def get_n_news_article():
